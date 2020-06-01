@@ -15,7 +15,7 @@ export default createGlobalStyle`
   }
 
   #root{
-    background-color: #a03333;
+    /*background-color: #a03333;*/
     color: black;
     max-width: 95vw;
     margin: 0 auto;
