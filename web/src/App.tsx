@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import GlobalStyle from './styleGlobal';
+import Routes from './routes/index';
 
 const App: React.FC = () => (
   <>  
     <BrowserRouter>
-      <h1>Hello World</h1>
-      <h2>Vamooo</h2>
+      <Routes />
     </BrowserRouter>
     <GlobalStyle />
   </>
